@@ -1,0 +1,120 @@
+html, body {
+    background-image: url("img.png");
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-image{
+    filter: blur(4px);
+    position:fixed;
+    background-image: url("img.png");
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+}
+
+.width-100{
+    width:100%;
+}
+
+.inputLogIn{
+    padding: 15px;
+}
+
+p {
+    display: inline;
+}
+
+.container {
+    max-width: 700px !important;
+    padding: 100px !important;
+    background-color: rgba(214, 193, 255, 0.95);
+    border-radius: 35px; 
+}
+
+.col {
+    text-align: center;
+}
+
+.col-12 {
+    padding: 0 !important;
+}
+
+input {
+    font-size: 1.25rem !important;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .col-sm-12 {
+        text-align: center !important;
+    }
+    .forget-text {
+        font-size: 12px !important;
+    }
+}
+
+input {
+    border-radius: 15px;
+    background-color: #fff;
+    color: black !important;
+    box-shadow: none !important;
+    border: 2px solid #fff;
+}
+
+.btnLogIn {
+    
+    background-color:rgb(193, 135, 247) ;
+    color: white !important;
+    border-radius: 50px;
+    font-size: 1.25rem !important;
+    border-color: transparent!important;
+
+}
+
+.btnLogIn:hover {
+    background-color: rgb(171, 105, 233);
+}
+
+.col-12 {
+    margin: 5px;
+}
+
+.container {
+    position: fixed !important;
+}
+
+input:focus {
+    box-shadow: 2px 2px 10px rgb(39, 39, 39) !important;
+    border: none !important;
+    outline:none !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(0,0,0,0.5);
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(0,0,0,0.5);
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(0,0,0,0.5);
+}
+
